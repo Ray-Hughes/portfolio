@@ -1,10 +1,16 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .main {
   position: absolute;
   top: 56px; /* Header Height */
-  bottom: 20px; /* Footer Height */
+  bottom: 0; /* Footer Height */
   width: 100%;
 }
 
@@ -14,6 +20,12 @@
 
 .content {
   background-color: #f8f9fa;
+}
+
+footer {
+  height: 50px;
+  margin-top: auto;
+  z-index: 1;
 }
 
 .entry {
@@ -35,5 +47,5 @@
 
 .entry img {
   width: 230px;
-  border-radius: 45%;
+  border-radius: 50%;
 }
