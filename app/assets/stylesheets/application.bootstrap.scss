@@ -7,7 +7,7 @@ body {
   min-height: 100vh;
 }
 
-.main {
+main {
   position: absolute;
   top: 56px; /* Header Height */
   bottom: 0; /* Footer Height */
@@ -20,6 +20,8 @@ body {
 
 .content {
   background-color: #f8f9fa;
+  padding-bottom: 20px;
+  margin-bottom: -10px;
 }
 
 footer {
