@@ -6,18 +6,16 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "portfolio", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+
     <% if content_for?(:head) %>
       <%= yield(:head) %>
     <% end %>
+
   </head>
-  <%= render "shared/navbar" %>
+
   <body>
-    <main class="flex-shrink-0">
-      <div class="container content">
-        <%= yield %>
-      </div>
-      <%= render "shared/footer" %>
-    </main>
+    <%= yield %>
   </body>
 </html>
