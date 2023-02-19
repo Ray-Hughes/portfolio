@@ -10,6 +10,8 @@
     "bootstrap-icons": "^1.10.3",
     "boxicons": "^2.1.4",
     "esbuild": "^0.17.4",
+    "glightbox": "^3.2.0",
+    "isotope-layout": "^3.0.6",
     "sass": "^1.57.1",
     "swiper": "^9.0.5",
     "typed": "^4.1.2",
